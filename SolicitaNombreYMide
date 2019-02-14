@@ -1,0 +1,11 @@
+Algoritmo SolicitaNombreYMide
+	Escribir Sin Saltar "¡Hola! Por favor, escribe tu nombre:"
+	Leer nombre
+	Si Longitud(nombre) > 6 Entonces
+		Escribir Sin Saltar "El número de caractéres del nombre ingresado es de: "
+		Escribir Sin Saltar Longitud(nombre)
+		Escribir Sin Saltar " caractéres"
+	SiNo
+		Escribir "Lo siento "+nombre+", tu nombre no es mayor a 6 caractéres :("
+	FinSi
+FinAlgoritmo
